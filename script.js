@@ -30,6 +30,7 @@ function endGame() {
   alert(`You popped ${score} bubbles!`);  // Or do something fancier
   score = 0;  // Reset score
   scoreBoard.textContent = `Score: ${score}`;  // Update score display
+  timeLeft = 10;
 }
 
 let score = 0;
