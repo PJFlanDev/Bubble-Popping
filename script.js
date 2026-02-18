@@ -30,12 +30,8 @@ function endGame() {
   alert(`You popped ${score} bubbles!`);  // Or do something fancier
   score = 0;  // Reset score
   scoreBoard.textContent = `Score: ${score}`;  // Update score display
-<<<<<<< HEAD
-  timeLeft = 10;
-=======
   timeLeft = 10;  // Reset time
   document.getElementById('timeLeft').textContent = `${timeLeft}`;
->>>>>>> 75b093a (reconnect to repo)
 }
 
 let score = 0;
@@ -70,13 +66,4 @@ startbutton.addEventListener('click', () => {
 });
 
 bubble.style.backgroundColor = `rgb(${randomRed}, ${randomGreen}, ${randomBlue})`;
-
-    const randomX = Math.random()* (gameWidth - bubbleSize);
-    const randomY = Math.random()* (gameHeight - bubbleSize);
-
-    bubble.style.left = randomX + 'px';
-    bubble.style.top = randomY + 'px';
-
-=======
 });
->>>>>>> 75b093a (reconnect to repo)
