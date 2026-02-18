@@ -62,8 +62,4 @@ bubble.addEventListener('click', function(){
 startbutton.addEventListener('click', () => {
    createBubble();
    startTimer();
-<<<<<<< HEAD
-});
-
-bubble.style.backgroundColor = `rgb(${randomRed}, ${randomGreen}, ${randomBlue})`;
 });
